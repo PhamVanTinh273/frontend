@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+.navbar > * {
+    margin-left:2rem ;
+    color: #9c6644;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+
+.navbar > *:hover{
+    color: #e76f51;
+}
+.size-navbar-home{
+    width: 50px;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    transition: 2s;
+    margin-left: 10px;
+
+}
+.size-navbar-home:hover{
+    border: 1px solid black;
+}
